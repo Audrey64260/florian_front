@@ -7,7 +7,7 @@ import { IDataUser, ISingleUser } from '../_interfaces/user';
   providedIn: 'root'
 })
 export class UserService {
-  url = 'http://localhost:8888/users'
+  url = 'http://localhost:62000/users'
 
   constructor(private http: HttpClient) { }
 

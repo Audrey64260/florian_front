@@ -9,7 +9,7 @@ import { ICocktail, IDataCocktail, ISingleCocktail } from '../_interfaces/cockta
 })
 export class CocktailService {
 
-  url = 'http://localhost:8888/cocktails'
+  url = 'http://localhost:62000/cocktails'
 
   constructor(private http: HttpClient) { }
 
